@@ -1,33 +1,75 @@
-# -Console-Application-that-helps-with-your-daily-work-routine.
-# Amigo - Voice Assistant
-
 <p align="center">
-    <h3 align="center">Amigo - Your Personal Voice Assistant</h3>
-    <p align="center">
-        A console application designed by Dhiraj Chaudhari to simplify your daily tasks through voice commands.
-    </p>
+ <h3 align="center">Amigo -Voice assistant</h3>
+
+  <p align="center">
+   Console Application which help to do your daily work routine.
+  </p>
 </p>
 
+
+
+
+
+
+
 ## About The Project
+  Console Application which help to do your daily work routine.
 
-Amigo is more than just a voice assistant; it's your reliable companion for managing everyday activities. Developed by Dhiraj Chaudhari, this Python-based console application leverages cutting-edge technologies to enhance your productivity.
+Why Amigo:
+* It can search on wikipedia.
+* It can open YouTube, Spotify, Whatsapp (if installed on your pc) and other cool stuff.
+* You can easily add your command.
 
-### Key Features:
-
-- **Wikipedia Search:** Access information with ease.
-- **Media Control:** Open YouTube, Spotify, Whatsapp (if installed on your PC), and more effortlessly.
-- **Custom Commands:** Personalize Amigo by adding your own voice commands.
 
 ### Built With
 
-- Python 3
+* Python 3
 
+
+<!-- USAGE EXAMPLES -->
 ## Usage
+1. It is easy to use just you need is basic Python knowledge
+2. You can add your command inside main method by appending ladder if statements.
 
-1. Designed for easy use with basic Python knowledge.
-2. Customize your experience by adding commands within the `main` method.
-
-```python
+```
 elif 'YOUR VOICE COMMAND' in query:
-    speak("YOUR COMMAND")
-    # YOUR CODE
+            speak("YOUR COMMAND")
+            ## YOUR CODE
+```
+
+
+<!-- CONTRIBUTING -->
+## Contributing
+
+Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+1. Fork the Project
+2. Create your Feature Branch 
+3. Commit your Changes
+4. Push to the Branch
+5. Open a Pull Request
+
+
+
+
+
+
+<!-- CONTACT -->
+## Contact
+LinkedIn
+[Jaspreet Singh](https://www.linkedin.com/in/jaspreetsidhu13/)
+
+More Projects
+GitHub: [JaspreetSidhu3](https://github.com/jaspreetsidhu3)
+
+
+
+<!-- ACKNOWLEDGEMENTS -->
+## Acknowledgements
+* Python 3 language
+* wikipedia library
+* pyttsx3 library
+* os library
+* speech_recognition library
+* webbrowser library
+
